@@ -46,11 +46,7 @@ cd finpro_sisben
 
 #### 2. Instal Dependensi
 
-Sangat disarankan untuk menggunakan *virtual environment*:
-
 ```bash
-python -m venv venv
-source venv/bin/activate  # Untuk Windows, gunakan `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
