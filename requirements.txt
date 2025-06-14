@@ -1,0 +1,5 @@
+discord.py
+pymongo
+paho-mqtt
+requests
+matplotlib
