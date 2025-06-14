@@ -40,12 +40,12 @@ const int PRINT_DIFF_THRESHOLD = 1;
 
 bool prevPumpState = false;
 
-const char* ssid = "Omah Amalia 1.2";
-const char* password = "omahamalia1.2";
-const char* mqttServer = "ef7aeb66de324cb2a513eae282fc85fe.s1.eu.hivemq.cloud";  // Ganti dengan hostname kamu
+const char* ssid = ""; // Ganti dengan SSID WiFi kamu
+const char* password = ""; // Ganti dengan password WiFi kamu
+const char* mqttServer = "";  // Ganti dengan hostname kamu
 const int mqttPort = 8883; // Port TLS
-const char* mqtt_user = "kautsar";
-const char* mqtt_pass = "Kautsar123";
+const char* mqtt_user = ""; // Ganti dengan username MQTT kamu
+const char* mqtt_pass = ""; // Ganti dengan password MQTT kamu
 const char* mqttTopicTank = "dispenser/level";
 const char* mqttTopicUsage = "dispenser/penggunaan";
 
